@@ -40,7 +40,7 @@ describe('Testa funktionerna', () => {
     await peek.click();
 
     let stack = await driver.findElement(By.id('top_of_stack')).getText();
-  	expect(stack).toEqual("Andra");
+  	expect(stack).toEqual("Första");
 	});
 
 });

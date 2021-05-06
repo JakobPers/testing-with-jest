@@ -5,5 +5,5 @@ test('Pusha två element, poppa bort sista och peek på kvarvarande element', ()
     stack.push("it to the limit");
     stack.pop();
     expect(stack.peek()).toBeDefined();
-    expect(stack.peek()).toBe("it to the limit");
+    expect(stack.peek()).toBe(1337);
 });
